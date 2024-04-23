@@ -1,0 +1,67 @@
+h1{ 
+    text-align: center;
+}
+
+body{ 
+    background-color: #bf8040;
+} 
+
+.wrapper {
+    position: relative;
+} 
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.box {
+  background-color:#bf8040;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black; /* Border around each box */
+} 
+
+.display_stats {  
+  display: flex;  
+  justify-content: space-between;
+
+} 
+
+span{ 
+  font-size: large;
+} 
+
+button{ 
+
+  height: 50px; 
+  width: 100px; 
+  background-color: gray;
+} 
+
+#win_percent{ 
+
+  font-size: 100px; 
+  text-align: center;
+} 
+
+.battle_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Adjust as needed */
+} 
+
+#outcome{ 
+
+  text-align: center; 
+  font-size: 100px
+}  
+
+#backto{ 
+
+  text-align: center; 
+  font-size: 50px;
+}
